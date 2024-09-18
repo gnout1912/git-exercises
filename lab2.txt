@@ -1,0 +1,53 @@
+$sudo apt update ; sudo apt install git -y
+$git config --global user.name "Tuong B2206021"
+$git config --global user.email "tuongb2206021@student.ctu.edu.vn"
+$git clone https://github.com/gnout1912/git-exercises
+$cd ./git-exercises
+$nano helloword.py
+    #!/usr/bin/python3
+    print(“Hello world”)
+$git add helloworld.py
+$git commit -m “Add hellworld.py file”
+$git status
+$nano helloworld.py
+		#!/usr/bin/python3
+		print(“Hello world”)
+		print(“Hello Git”)
+$git add helloworld.py
+	$git commit -m “Modify hellworld.py file”
+$git log
+$git push
+$git log
+$git push
+$git checkout -b test_functions
+$nano helloworld.py
+		#!/usr/bin/python3
+		print(“Hello world”)
+		print(“Hello OSS Development”)
+	$git add helloworld.py
+	$git commit -m “Modify hellworld.py file”
+$cat helloworld.py
+$git checkout master
+$cat helloworld.py
+$git merge test_functions
+$cat helloworld.py
+$gedit helloworld.py
+		#!/usr/bin/python3
+		print(“Hello world”)
+		print(“Hello OSS Development”)
+		print(“Hello CTU”)
+$git add helloworld.py
+	$git commit -m “Modify hellworld.py file”
+$git checkout test_functions
+$gedit helloworld.py
+		#!/usr/bin/python3
+		print(“Hello world”)
+		print(“Hello OSS Development”)
+		print(“Hello CTU - CICT”)
+$git add helloworld.py
+	$git commit -m “Modify hellworld.py file”
+$git checkout master
+$git merge test_functions
+$git log
+
+
